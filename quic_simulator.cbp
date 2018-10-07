@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="quic_simulator" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/quic_simulator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/quic_simulator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="actor.cc" />
+		<Unit filename="actor.h" />
+		<Unit filename="alarm_factory.cc" />
+		<Unit filename="alarm_factory.h" />
+		<Unit filename="connection_interface.h" />
+		<Unit filename="link.cc" />
+		<Unit filename="link.h" />
+		<Unit filename="log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="log.h" />
+		<Unit filename="macros.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="port.cc" />
+		<Unit filename="port.h" />
+		<Unit filename="ptr_impl.h" />
+		<Unit filename="queue.cc" />
+		<Unit filename="queue.h" />
+		<Unit filename="quic_alarm.cc" />
+		<Unit filename="quic_alarm.h" />
+		<Unit filename="quic_alarm_factory.h" />
+		<Unit filename="quic_arena_scoped_ptr.h" />
+		<Unit filename="quic_bandwidth.cc" />
+		<Unit filename="quic_bandwidth.h" />
+		<Unit filename="quic_clock.cc" />
+		<Unit filename="quic_clock.h" />
+		<Unit filename="quic_connection.cc" />
+		<Unit filename="quic_connection.h" />
+		<Unit filename="quic_constants.h" />
+		<Unit filename="quic_containers.h" />
+		<Unit filename="quic_endpoint.cc" />
+		<Unit filename="quic_endpoint.h" />
+		<Unit filename="quic_export.h" />
+		<Unit filename="quic_packet_writer.h" />
+		<Unit filename="quic_printf.cc" />
+		<Unit filename="quic_printf.h" />
+		<Unit filename="quic_random.cc" />
+		<Unit filename="quic_random.h" />
+		<Unit filename="quic_time.cc" />
+		<Unit filename="quic_time.h" />
+		<Unit filename="quic_type.cc" />
+		<Unit filename="quic_type.h" />
+		<Unit filename="random.cc" />
+		<Unit filename="random.h" />
+		<Unit filename="simulator.cc" />
+		<Unit filename="simulator.h" />
+		<Unit filename="switch.cc" />
+		<Unit filename="switch.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
